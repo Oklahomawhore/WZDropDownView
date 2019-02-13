@@ -1,4 +1,4 @@
-## WZDropDownView
+# WZDropDownView
 
 A Simple Drop Down Menu that is easy to use, and easy to customize.
 
@@ -6,7 +6,7 @@ A Simple Drop Down Menu that is easy to use, and easy to customize.
 Created by W.Zhu
 
 
-# Installation
+## Installation
 
 Drag WZDropDownView.h and WZDropDownView.m into your project.
 
@@ -16,7 +16,7 @@ import custom arrow with the name "arrowdown.png" or use the one in this reposit
 
 and you are good to go...
 
-# example
+## example
 
 The example is included in this repository.
 
@@ -40,6 +40,6 @@ The example is included in this repository.
     [self.view addSubview:_dropView];
 ```
 
-# Author
+## Author
 
 Wangshu Zhu email: killnobody0514@gmail.com
