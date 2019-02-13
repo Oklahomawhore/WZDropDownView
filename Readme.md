@@ -8,7 +8,9 @@ Created by W.Zhu
 
 ## Installation
 
-Drag WZDropDownView.h and WZDropDownView.m into your project.
+git clone this repository.
+
+Drag WZDropDownView Folder into your project.
 
 import custom arrow with the name "arrowdown.png" or use the one in this repository(that is not good-looking)
 
