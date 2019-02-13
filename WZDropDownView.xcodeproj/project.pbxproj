@@ -14,6 +14,9 @@
 		460141DF2213C0E20019019A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460141DD2213C0E20019019A /* LaunchScreen.storyboard */; };
 		460141E22213C0E20019019A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 460141E12213C0E20019019A /* main.m */; };
 		460141EC2213C0E20019019A /* WZDropDownViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 460141EB2213C0E20019019A /* WZDropDownViewUITests.m */; };
+		460141F82213C0F80019019A /* WZDropDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 460141F72213C0F80019019A /* WZDropDownView.m */; };
+		460141FA2213C3E80019019A /* arrowdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 460141F92213C3E80019019A /* arrowdown.png */; };
+		460141FC2213C42A0019019A /* 网易Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 460141FB2213C42A0019019A /* 网易Logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		460141E72213C0E20019019A /* WZDropDownViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZDropDownViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		460141EB2213C0E20019019A /* WZDropDownViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZDropDownViewUITests.m; sourceTree = "<group>"; };
 		460141ED2213C0E20019019A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460141F62213C0F80019019A /* WZDropDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZDropDownView.h; sourceTree = "<group>"; };
+		460141F72213C0F80019019A /* WZDropDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZDropDownView.m; sourceTree = "<group>"; };
+		460141F92213C3E80019019A /* arrowdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowdown.png; sourceTree = "<group>"; };
+		460141FB2213C42A0019019A /* 网易Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "网易Logo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,10 @@
 		460141D12213C0E10019019A /* WZDropDownView */ = {
 			isa = PBXGroup;
 			children = (
+				460141FB2213C42A0019019A /* 网易Logo.jpg */,
+				460141F92213C3E80019019A /* arrowdown.png */,
+				460141F62213C0F80019019A /* WZDropDownView.h */,
+				460141F72213C0F80019019A /* WZDropDownView.m */,
 				460141D22213C0E10019019A /* AppDelegate.h */,
 				460141D32213C0E10019019A /* AppDelegate.m */,
 				460141D52213C0E10019019A /* ViewController.h */,
@@ -186,6 +197,8 @@
 				460141DF2213C0E20019019A /* LaunchScreen.storyboard in Resources */,
 				460141DC2213C0E20019019A /* Assets.xcassets in Resources */,
 				460141DA2213C0E10019019A /* Main.storyboard in Resources */,
+				460141FA2213C3E80019019A /* arrowdown.png in Resources */,
+				460141FC2213C42A0019019A /* 网易Logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460141F82213C0F80019019A /* WZDropDownView.m in Sources */,
 				460141D72213C0E10019019A /* ViewController.m in Sources */,
 				460141E22213C0E20019019A /* main.m in Sources */,
 				460141D42213C0E10019019A /* AppDelegate.m in Sources */,
